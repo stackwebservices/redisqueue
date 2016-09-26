@@ -3,7 +3,7 @@
 from redis import StrictRedis
 
 
-class RedisQUEUE(StrictRedis):
+class RedisQueue(StrictRedis):
     def set_item(self, queue, item, unique=True):
         """
         set queue item
