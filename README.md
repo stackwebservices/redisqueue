@@ -2,6 +2,12 @@
 
 ## How To Use
 
+Import module
+
+```
+from RedisQueue import RedisQueue
+```
+
 Define queue name
 
 ```
